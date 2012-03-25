@@ -28,8 +28,6 @@ public class FtpsMessageDispatcher extends AbstractMessageDispatcher {
         connector.uploadFile((OutboundEndpoint) endpoint, muleEvent);
     }
 
-
-
     @Override
     protected MuleMessage doSend(MuleEvent muleEvent) throws Exception {
         logger.info("=== doSend ===");
