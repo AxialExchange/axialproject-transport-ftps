@@ -15,7 +15,7 @@
 
     <flow name="ftpsFlow.out">
         <vm:inbound-endpoint path="input" exchange-pattern="one-way"/>
-        <ftps:outbound-endpoint host="67.212.164.148" port="990" user="CCCWake" password="11-wake05"
+        <ftps:outbound-endpoint host="67.212.164.148" port="990" user="CCCWake_Test" password="xAD5xe6p"
                                 outputPattern="FAUS-LEE--#[function:datestamp:yyyyMMddHHmmss].txt"/>
     </flow>
 
